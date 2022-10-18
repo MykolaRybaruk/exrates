@@ -1,0 +1,58 @@
+.footerWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+footer {
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 800px;
+    background-color: #d19ed9;
+    border-radius: 15px;
+
+
+    img {
+        border: none;
+    }
+
+    .ownerBox {
+        display: flex;
+        align-items: center;
+
+        .footerLogo {
+            color: #fff;
+        }
+
+        .footerOwner {
+            color: #333;
+        }
+    }
+
+    .stores {
+        margin-bottom: -5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .storesImage {
+            margin: 0 5px;
+        }
+    }
+
+    .reserved {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #fff;
+
+        .character {
+            color: #333;
+        }
+    }
+
+}

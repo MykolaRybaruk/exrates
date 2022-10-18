@@ -1,0 +1,56 @@
+.headerWrapper {
+    padding-top: 10px;
+    margin:  0 auto;
+    width: 100%;
+    background-color: #e3cfe6;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+header {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+
+    h2 {
+        color: #fff;
+    }
+
+    p {
+        color: #333;
+    }
+}
+
+.coursesWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    .courses {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        align-items: center;
+
+        .currency {
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+
+            .currencyName {
+                font-weight: 700;
+                font-size: 20px;
+                color: #fff;
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .contacts {
+        display: flex;
+        justify-content: space-around;
+    }
+}
